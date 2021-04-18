@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "name": "travel-log",
+  "builds": [
+    {
+      "src": "",
+      "use": "@now/node-server"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/.*",
+      "dest": ""
+    }
+  ],
+  "alias": [
+    "travel-log-cli"
+  ]
+}

@@ -1,0 +1,162 @@
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    height :100%;
+    width:100%;
+    overflow:hidden;
+    background-image:url('./images/background_image4.jpg');
+    background-repeat: no-repeat;
+    overflow-y: auto;
+    background-size: cover;
+    
+
+}
+
+.marker{
+  stroke:brown;
+  transform:translate(-50%, -100%);
+  z-index:0;
+
+}
+
+.error{
+  color:red;
+}
+
+.popup {
+  max-width: 40vw;
+  padding:1rem;
+  z-index:1;
+  background-color:#f7c5a8;
+
+}
+
+.popup img {
+  height:200px;
+  width:auto;
+  text-align:center;
+  margin:0 auto;
+  display:block;
+}
+
+.createMarker{
+  stroke:yellow;
+  transform:translate(-50%, -100%);
+
+}
+
+.entry-form label, .entry-form input, .entry-form textarea, .entry-form button{
+  
+  margin: 0.5rem 0;
+  display: block;
+  width:100%
+
+}
+
+.heading ,.list{
+margin-left: 40px;
+}
+
+.heading{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.button{
+  margin-left: 50px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  background-color:#ffa5b0 ;
+  padding: 10px 24px;
+  border-radius: 12px;
+  
+}
+
+.button:hover {
+  background-color: #ff9595; /* Green */
+ 
+}
+
+.formTitle{
+   position: absolute; left: 220px; top: 50px; border: solid black 1px; padding: 10px; background-color: rgb(200,100,100); text-align: justify; font-size: 12px; width: 205px;
+}
+
+.titleLabel{
+  font-size: 12px;
+}
+
+.map{
+  /* width:80%;
+  float:right;
+  margin-right:10px; */
+  position: absolute;
+    top: 162px;
+    right: 50px;
+    width:70%;
+    bottom:150px;
+  
+  
+
+  
+  
+}
+
+.delete{
+  display:inline;
+  margin-right: 12px;
+  margin-left: 5px;
+  font-size: 13px;
+  
+}
+
+.delete-form{
+  display:inline;
+ 
+}
+
+.cancel-del{
+  font-size:8px;
+  padding:0px;
+  vertical-align: top;
+  margin-top: 3px;
+  
+}
+
+.del-button{
+  margin-top: 0px;
+  font-size: 12px;
+  border-radius: 6px;
+  vertical-align: top;
+  background-color:#ff4b5c;
+  text-align: center;
+
+  
+}
+
+.mapDel{
+  margin-left: 0;
+}
+
+.del-icon{
+  padding-bottom: 0px;
+  font-size: 11px;
+}
+
+.link{
+  display: block;
+}
+
+.login{
+  position: absolute;
+  top: 12px;
+  right: 50px;
+}
+
+.logout{
+  position: absolute;
+  top: 12px;
+  right: 50px;
+}
